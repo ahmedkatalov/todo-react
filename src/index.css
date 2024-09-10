@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(25, 4, 46);
+}
+input{
+    border: 0cap;
+}
+.inputAddTodo{
+    border: 0cap;
+    width: 200px;
+    padding: 3px;
+    height: 30px;
+}
+
+button{
+    cursor: pointer;
+    border: 0cap;
+}
+
+.buttonAdd{
+    height: 30px;
+    padding: 5px;
+    border: 0cap;
+    width: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+
+li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.mainContainer{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+
+
+.deleteTodo{
+    margin-left: 20px;
+    float: right;
+    background-color: brown;
+    color: aliceblue;
+    height: 30px;
+    padding: 5px;
+    width: 80px;
+}
+
+.addTodo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.todos{
+    max-width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+.list{
+    border: 1px solid rgb(201, 194, 194);
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
